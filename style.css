@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1f3c88;
+  color: white;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(rgba(31,60,136,0.8), rgba(31,60,136,0.8)),
+              url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac');
+  background-size: cover;
+  color: white;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 40px 10%;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #1f3c88;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background: #1f3c88;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+button {
+  background: #1f3c88;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #16306d;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    margin-top: 10px;
+  }
+}
