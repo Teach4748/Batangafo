@@ -8,6 +8,8 @@ header {
   background-color: #002b5c;
   color: white;
   padding: 15px 0;
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
@@ -39,12 +41,18 @@ nav a:hover {
   padding: 100px 20px;
 }
 
-.hero h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #ffd700;
+  color: #002b5c;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.container {
+.cards {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -65,9 +73,38 @@ nav a:hover {
   transform: translateY(-8px);
 }
 
+.form-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 12px;
+  background-color: #002b5c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 footer {
   background-color: #002b5c;
   color: white;
   text-align: center;
   padding: 20px;
+  margin-top: 50px;
 }
